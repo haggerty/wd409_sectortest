@@ -9,6 +9,6 @@ The code was developed to find a reasonable way to quickly extract the time, pea
 * float peak[384] is the maximum of the waveform extracted by a cubic spline interpolation near the maximum ADC values
 * float time[384] is the time (in sample number) at the peak
 
-Essentially all the data in the prdf is decoded and saved to the TTree, as well as some other attempts to extract features of the signal.  If a pulse saturates the ADC (2^14 = 16384), the peak is reported as 16384.
+Essentially all the data in the prdf is decoded and saved to the TTree, as well as some other attempts to extract features of the signal.  If a pulse saturates the ADC (2<sup>14</sup> = 16384), the peak is reported as 16384.
 
 ![onepulse_18595_56766_36](https://user-images.githubusercontent.com/1236965/150211124-0499dc97-85b1-44c6-ba26-600fbfa783be.png)
